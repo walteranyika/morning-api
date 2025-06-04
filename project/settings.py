@@ -129,3 +129,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # pip freeze > requirements.txt
 
 # git init
+
+# justpaste.it/ixpcy
+
+# git remote remove origin
+
+# render.com
+
+# gunicorn project.wsgi

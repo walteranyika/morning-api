@@ -22,9 +22,7 @@ def fetch(request):
     serializer = PersonSerializer(users, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
-# ngrok http --url=mature-octopus-causal.ngrok-free.app 8000
 
-# https://mature-octopus-causal.ngrok-free.app/api/fetch
 
 
 
