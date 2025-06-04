@@ -17,6 +17,26 @@ Including another URLconf
 # from django.contrib import admin
 from django.urls import path
 
+from app import views
+
 urlpatterns = [
+    path('api/add-person', views.add_person),
+    path('api/fetch', views.fetch)
+
     #    path('admin/', admin.site.urls),
 ]
+
+# https://mature-octopus-causal.ngrok-free.app/api/fetch
+
+
+
+
+
+
+
+
+
+
+
+
+
